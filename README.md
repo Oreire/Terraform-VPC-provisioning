@@ -1,3 +1,4 @@
+Designed and automated the provisioning of a custom AWS Virtual Private Cloud (VPC) using Terraform to support the MS Cleaning Service. The solution enforces network segmentation and security best practices, delivering a scalable, fault‑tolerant, and highly available architecture across three availability zones (eu‑west‑2a, eu‑west‑2b, eu‑west‑2c). Public and private subnets are provisioned with dedicated route tables, ensuring secure isolation of internal workloads while maintaining accessibility for internet‑facing applications through an Internet Gateway. DNS support enables seamless internal name resolution, while Terraform scripts orchestrate the entire deployment for consistency, compliance, and future scalability. This IaC‑driven model reduces manual configuration errors, optimizes resource allocation, and streamlines long‑term infrastructure management.
 
 ## Project Summary
 
